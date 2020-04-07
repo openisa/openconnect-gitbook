@@ -22,15 +22,15 @@ description: 连接器实例属于逻辑概念，其负责维护特定数据系�
 
 * **Task**
 
-        ****解析数据源数据，并负责在数据源和RocketMQ Broker之间拷贝数据
+        解析数据源数据，并负责在数据源和RocketMQ Broker之间拷贝数据
 
 ### **Connector 示例**
 
-* **[**rocketmq-connector**](https://github.com/apache/rocketmq-externals/tree/master/rocketmq-connect)**
-* **[**rocketmq-mysql**](https://github.com/apache/rocketmq-externals/tree/master/rocketmq-mysql)**
-* **[**rocketmq-connect-rabbitmq**](https://github.com/apache/rocketmq-externals/tree/master/rocketmq-connect-rabbitmq)**
-* **[**rocketmq-connect-kafka**](https://github.com/apache/rocketmq-externals/tree/master/rocketmq-connect-kafka)**
-* **[**rocketmq-connect-activemq**](https://github.com/apache/rocketmq-externals/tree/master/rocketmq-connect-activemq)**
+* [**rocketmq-connector**](https://github.com/apache/rocketmq-externals/tree/master/rocketmq-connect)
+* [**rocketmq-mysql**](https://github.com/apache/rocketmq-externals/tree/master/rocketmq-mysql)
+* [**rocketmq-connect-rabbitmq**](https://github.com/apache/rocketmq-externals/tree/master/rocketmq-connect-rabbitmq)
+* [**rocketmq-connect-kafka**](https://github.com/apache/rocketmq-externals/tree/master/rocketmq-connect-kafka)
+* [**rocketmq-connect-activemq**](https://github.com/apache/rocketmq-externals/tree/master/rocketmq-connect-activemq)
 
 ### **Quick Start**
 
