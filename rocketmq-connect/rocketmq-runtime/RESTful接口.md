@@ -4,6 +4,18 @@ description: connector 创建、启动、停止；集群的信息获取
 
 # RESTful 接口
 
+{% hint style="success" %}
+如果使用`curl` 请求RESTful接口的话，可能会遇到解析json字符串错误的问题，为了解决这个问题可以先使用url-encode工具将json字符串转码为符合url规范的
+字符串格式，比如Linux 下的`urlencode`工具或者在线网站。一个简单的例子如下
+```
+#!/bin/sh
+
+jdbc_config=$(urlencode `cat config/jdbc_source_connector.json`)
+
+curl -i -H "Accept: application/json" "http://localhost:8081/connectors/jdbc-source-connector?config=$jdbc_config"
+```
+{% endhint %}
+
 ## RESTful API
 
 {% api-method method="get" host="http://{ip地址}:{port}/connectors" path="/:connector-name?config=:config" %}
