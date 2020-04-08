@@ -38,9 +38,11 @@
   * [Replicator简介](connector/replicator/简介.md)
   * [Replicator快速开始](connector/replicator/rocketmq-replicator.md)
   * [Replicator 参数配置](connector/replicator/参数配置.md)
+* [Connect-Jdbc](connector/connect-jdbc.md)
 * [Connect-Mongo](connector/connect-mongo.md)
 * [Connect-MySQL](connector/connect-mysql.md)
 * [Connect-Redis](connector/connect-redis.md)
+
 
 ## 开发者中心
 
